@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Optimizer Pro | Interactive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="main-layout">
+        <div class="glass-panel sidebar">
+            <header>
+                <h1>Route <span class="highlight">Pro</span></h1>
+                <p>Interactive Graph Builder</p>
+            </header>
+
+            <div class="instructions">
+                <h3>How to use:</h3>
+                <ul>
+                    <li><strong>Add Node:</strong> Click "Add Node" then click on the canvas.</li>
+                    <li><strong>Add Edge:</strong> Click "Add Edge" then drag from one node to another. Enter the distance.</li>
+                    <li><strong>Edit/Delete:</strong> Select a node or edge and use the edit/delete buttons.</li>
+                </ul>
+            </div>
+
+            <div class="controls">
+                <div class="input-group">
+                    <label for="startNode">Start Location</label>
+                    <select id="startNode"></select>
+                </div>
+                
+                <div class="input-group">
+                    <label for="endNode">Destination</label>
+                    <select id="endNode"></select>
+                </div>
+            </div>
+
+            <button id="optimizeBtn" onclick="optimize()">
+                <span class="btn-text">Find Optimal Route</span>
+                <div class="spinner hidden"></div>
+            </button>
+
+            <div id="resultContainer" class="result-container hidden">
+                <h3>Shortest Path</h3>
+                <div class="distance-display">
+                    Total Distance: <span id="distanceValue" class="highlight-value"></span>
+                </div>
+                <div class="route-display" id="routeDisplay"></div>
+            </div>
+            
+            <div id="errorContainer" class="error-container hidden">
+                <p id="errorMsg"></p>
+            </div>
+        </div>
+
+        <div class="glass-panel canvas-container">
+            <div id="network"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
