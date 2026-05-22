@@ -4,10 +4,14 @@
 ![Flask](https://img.shields.io/badge/Flask-Backend-lightgrey?logo=flask)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)
 ![License](https://img.shields.io/badge/License-Educational-green)
+[![Vercel](https://img.shields.io/badge/Vercel-Frontend%20Live-black?logo=vercel)](https://route-optimization-dijkstra.vercel.app)
+[![Render](https://img.shields.io/badge/Render-Backend%20Live-46E3B7?logo=render&logoColor=white)](https://route-optimization-dijkstra.onrender.com)
 
 **Route Optimizer Pro** is a full-stack web application that computes the shortest path between nodes in a user-built graph using Dijkstra's algorithm. Users interactively construct a weighted graph on a visual canvas, select start and end nodes, and receive the optimal route and total distance in real time.
 
-Repository: [https://github.com/suresh4330/route-optimization-dijkstra](https://github.com/suresh4330/route-optimization-dijkstra)
+* **Live Frontend (Vercel):** [https://route-optimization-dijkstra.vercel.app](https://route-optimization-dijkstra.vercel.app)
+* **Live Backend API (Render):** [https://route-optimization-dijkstra.onrender.com/optimize](https://route-optimization-dijkstra.onrender.com)
+* **GitHub Repository:** [https://github.com/suresh4330/route-optimization-dijkstra](https://github.com/suresh4330/route-optimization-dijkstra)
 
 ---
 
