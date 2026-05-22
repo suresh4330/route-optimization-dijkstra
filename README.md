@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
 ![Flask](https://img.shields.io/badge/Flask-Backend-lightgrey?logo=flask)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)
-![License](https://img.shields.io/badge/License-Educational-green)
+![License](https://img.shields.io/badge/License-MIT-yellow?logo=opensourceinitiative)
 
 **Route Optimizer Pro** is a full-stack web application that computes the shortest path between nodes in a user-built graph using Dijkstra's algorithm. Users interactively construct a weighted graph on a visual canvas, select start and end nodes, and receive the optimal route and total distance in real time.
 
@@ -357,4 +357,6 @@ GitHub: [suresh4330](https://github.com/suresh4330)
 
 ## License
 
-This project is intended for educational and academic use.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided the original copyright notice and this permission notice are included in all copies or substantial portions of the software.
