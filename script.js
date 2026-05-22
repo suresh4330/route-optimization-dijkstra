@@ -1,4 +1,4 @@
-const API_URL = "https://route-optimizer-backend.onrender.com/optimize"; // Replace with your actual Render backend URL
+const API_URL = "https://route-optimization-dijkstra.onrender.com/optimize";
 
 // --- Vis.js Network Setup ---
 let nodes = new vis.DataSet([
