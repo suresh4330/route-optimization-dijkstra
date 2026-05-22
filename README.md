@@ -16,7 +16,6 @@ Repository: [https://github.com/suresh4330/route-optimization-dijkstra](https://
 - [Overview](#overview)
 - [Feature Highlights](#feature-highlights)
 - [Resume Highlights](#resume-highlights)
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
 - [Architecture Diagram](#architecture-diagram)
@@ -66,35 +65,6 @@ The system is containerized with Docker for reproducible deployment and separati
 **Resume-ready one-liner:**
 
 > Developed and deployed a full-stack Route Optimization platform using Flask and Dijkstra's algorithm to compute and visualize shortest paths across user-defined weighted graphs, containerized with Docker Compose.
-
----
-
-## Screenshots
-
-Add screenshots to:
-
-```
-docs/screenshots/
-```
-
-Suggested file names:
-
-```
-docs/screenshots/home.png
-docs/screenshots/graph_builder.png
-docs/screenshots/path_result.png
-```
-
-Markdown snippet:
-
-### Home
-![Home](docs/screenshots/home.png)
-
-### Graph Builder
-![Graph Builder](docs/screenshots/graph_builder.png)
-
-### Path Result
-![Path Result](docs/screenshots/path_result.png)
 
 ---
 
