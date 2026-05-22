@@ -1,4 +1,6 @@
-const API_URL = "https://route-optimization-dijkstra.onrender.com/optimize";
+const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:"
+    ? "http://localhost:5000/optimize"
+    : "https://route-optimization-dijkstra.onrender.com/optimize";
 
 // --- Vis.js Network Setup ---
 let nodes = new vis.DataSet([
